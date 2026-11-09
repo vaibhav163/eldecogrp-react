@@ -1,0 +1,90 @@
+{
+  "logo": "/assets/images/logo/eldeco-logo.png",
+  "completedBanner": "/assets/images/projects/completed-banner.webp",
+  "projects": {
+    "eldeco-live-by-the-greens": {
+      "hero": "/assets/images/projects/eldeco-live-by-the-greens/hero.webp",
+      "gallery": [
+        "/assets/images/projects/eldeco-live-by-the-greens/gallery-1.webp",
+        "/assets/images/projects/eldeco-live-by-the-greens/gallery-2.webp",
+        "/assets/images/projects/eldeco-live-by-the-greens/gallery-3.webp",
+        "/assets/images/projects/eldeco-live-by-the-greens/gallery-4.webp",
+        "/assets/images/projects/eldeco-live-by-the-greens/gallery-5.webp",
+        "/assets/images/projects/eldeco-live-by-the-greens/gallery-6.webp"
+      ],
+      "extra": "/assets/images/projects/eldeco-live-by-the-greens/masterplan.jpg"
+    },
+    "eldeco-la-vida-bella": {
+      "hero": "/assets/images/projects/eldeco-la-vida-bella/hero.webp",
+      "gallery": [
+        "/assets/images/projects/eldeco-la-vida-bella/gallery-1.webp",
+        "/assets/images/projects/eldeco-la-vida-bella/gallery-2.webp",
+        "/assets/images/projects/eldeco-la-vida-bella/gallery-3.webp",
+        "/assets/images/projects/eldeco-la-vida-bella/gallery-4.webp",
+        "/assets/images/projects/eldeco-la-vida-bella/gallery-5.webp",
+        "/assets/images/projects/eldeco-la-vida-bella/gallery-6.webp"
+      ]
+    },
+    "eldeco-7-peaks-residences": {
+      "hero": "/assets/images/projects/eldeco-7-peaks-residences/hero.webp",
+      "gallery": [
+        "/assets/images/projects/eldeco-7-peaks-residences/gallery-1.webp",
+        "/assets/images/projects/eldeco-7-peaks-residences/gallery-2.webp",
+        "/assets/images/projects/eldeco-7-peaks-residences/gallery-3.webp",
+        "/assets/images/projects/eldeco-7-peaks-residences/gallery-4.webp",
+        "/assets/images/projects/eldeco-7-peaks-residences/gallery-5.webp",
+        "/assets/images/projects/eldeco-7-peaks-residences/gallery-6.webp"
+      ],
+      "extra": "/assets/images/projects/eldeco-7-peaks-residences/masterplan.webp"
+    },
+    "eldeco-echoes-of-eden": {
+      "hero": "/assets/images/projects/eldeco-echoes-of-eden/hero.webp",
+      "gallery": [
+        "/assets/images/projects/eldeco-echoes-of-eden/gallery-1.webp",
+        "/assets/images/projects/eldeco-echoes-of-eden/gallery-2.webp",
+        "/assets/images/projects/eldeco-echoes-of-eden/gallery-3.webp",
+        "/assets/images/projects/eldeco-echoes-of-eden/gallery-4.webp",
+        "/assets/images/projects/eldeco-echoes-of-eden/gallery-5.webp",
+        "/assets/images/projects/eldeco-echoes-of-eden/gallery-6.webp"
+      ]
+    },
+    "eldeco-whispers-of-wonder": {
+      "hero": "/assets/images/projects/eldeco-whispers-of-wonder/hero.webp",
+      "gallery": [
+        "/assets/images/projects/eldeco-whispers-of-wonder/gallery-1.webp",
+        "/assets/images/projects/eldeco-whispers-of-wonder/gallery-2.webp",
+        "/assets/images/projects/eldeco-whispers-of-wonder/gallery-3.webp",
+        "/assets/images/projects/eldeco-whispers-of-wonder/gallery-4.webp",
+        "/assets/images/projects/eldeco-whispers-of-wonder/gallery-5.webp",
+        "/assets/images/projects/eldeco-whispers-of-wonder/gallery-6.webp"
+      ],
+      "extra": "/assets/images/projects/eldeco-whispers-of-wonder/masterplan.png"
+    },
+    "eldeco-ballads-of-bliss": {
+      "hero": "/assets/images/projects/eldeco-ballads-of-bliss/hero.webp",
+      "gallery": [
+        "/assets/images/projects/eldeco-ballads-of-bliss/gallery-1.webp",
+        "/assets/images/projects/eldeco-ballads-of-bliss/gallery-2.webp",
+        "/assets/images/projects/eldeco-ballads-of-bliss/gallery-3.webp",
+        "/assets/images/projects/eldeco-ballads-of-bliss/gallery-4.webp"
+      ],
+      "extra": "/assets/images/projects/eldeco-ballads-of-bliss/masterplan.png"
+    },
+    "eldeco-aamantran": {},
+    "eldeco-edge": {},
+    "eldeco-inspire": {},
+    "eldeco-magnolia-park": {},
+    "eldeco-the-studio": {},
+    "eldeco-sylvan-view": {},
+    "eldeco-olympia": {},
+    "eldeco-utopia": {},
+    "eldeco-the-klasse": {},
+    "eldeco-ananda": {},
+    "eldeco-mystic-greens": {},
+    "eldeco-golf-view-apartments": {},
+    "eldeco-the-castle": {},
+    "eldeco-riviera": {},
+    "eldeco-residency-greens": {},
+    "eldeco-green-meadows": {}
+  }
+}

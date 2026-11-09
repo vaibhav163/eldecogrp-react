@@ -1,0 +1,123 @@
+
+/* ==== Project pages — design matched to the live eldecogrp.com project page ====
+   Palette & type taken from the live site: Marcellus serif headings, Montserrat body,
+   Eldeco green #02994a, deep green #123939, cream #fff7e8, ink #35312f. */
+body.proj{overflow-x:clip;font-family:'Montserrat',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:#35312f}
+body.proj h1,body.proj h2,body.proj h3,body.proj h4{font-family:'Marcellus',Georgia,serif;font-weight:400}
+body.proj .wrap{max-width:1200px}
+.p-sec{padding:4rem 0}
+.p-heading{max-width:100%;font-size:2rem;text-transform:uppercase;letter-spacing:.5px;color:#02994a;margin:0 0 30px;position:relative;display:table}
+.p-heading::after{content:"";display:block;width:64px;height:3px;background:#02994a;margin-top:10px}
+.p-heading span{color:#02994a}
+.p-lead{font-size:1.02rem;line-height:1.75;color:#4a4742}
+/* --- banner (live: 100vh, centred bordered glass box) --- */
+.p-banner{min-height:100vh;background-size:cover;background-position:center;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:110px 16px 56px}
+.p-banner::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(0,0,0,.38),rgba(0,0,0,.45))}
+.p-banner-box{position:relative;z-index:2;color:#fff;text-align:center;padding:3rem;border:3px solid #fff;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);box-shadow:0 10px 2rem rgba(0,0,0,.25);max-width:760px;width:100%}
+.p-banner-over{font-family:'Marcellus',serif;text-transform:uppercase;letter-spacing:1px;font-size:1.05rem;margin:0 0 6px}
+.p-banner-box h1{font-size:2.9rem;text-transform:uppercase;letter-spacing:.5px;line-height:1.15;margin:.1em 0 .25em;color:#fff}
+.p-banner-loc{font-size:1.05rem;margin:0 0 4px}
+.p-banner-price{border:dashed rgba(255,255,255,.4);border-width:1px 0;padding:10px 0;margin:16px 0 20px;font-size:1.15rem;width:100%}
+.p-banner-price strong{color:#ffd95e}
+.p-banner-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.p-banner-badges{position:relative;z-index:2;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:20px}
+.p-btn{display:inline-block;font-family:'Marcellus',serif;text-transform:uppercase;letter-spacing:.5px;font-size:.95rem;padding:12px 26px;background:#02994a;color:#fff;text-decoration:none;border:1px solid #02994a;transition:all .3s ease;cursor:pointer}
+.p-btn:hover{background:#006161;border-color:#006161;color:#fff}
+.p-btn-light{background:#fff;color:#35312f;border-color:#fff}
+.p-btn-light:hover{background:#02994a;border-color:#02994a;color:#fff}
+.p-btn-wa{background:#25d366;border-color:#25d366;color:#06351a}
+.p-btn-wa:hover{background:#1eb856;border-color:#1eb856;color:#06351a}
+/* --- configuration strip --- */
+.p-config{background:#fff;border-bottom:1px solid #eee}
+.p-config-row{display:flex;flex-wrap:wrap}
+.p-cfg-box{flex:1 1 150px;padding:20px 16px;border-right:1px dashed #02994a}
+.p-cfg-box:last-child{border-right:none}
+.p-cfg-box h3{font-size:.82rem;text-transform:uppercase;letter-spacing:1px;color:#02994a;margin:0 0 4px}
+.p-cfg-box p{margin:0;font-weight:600;color:#35312f;font-size:.95rem}
+/* --- anchor nav --- */
+body.proj .anchor-nav{top:0;border-bottom:1px solid #e8e8e8}
+body.proj .anchor-nav a{font-family:'Marcellus',serif;text-transform:uppercase;letter-spacing:.5px;font-size:.9rem;color:#35312f}
+body.proj .anchor-nav a:hover{color:#02994a}
+/* --- overview facts --- */
+.p-facts{border:none}
+.p-facts th,.p-facts td{border:none;border-bottom:1px dashed rgba(0,0,0,.15);padding:11px 8px}
+.p-facts th{background:none;font-family:'Marcellus',serif;text-transform:uppercase;letter-spacing:.5px;font-size:.9rem;color:#35312f;width:180px}
+body.proj .rera-line{background:#fff7e8;border:1px solid #e5d9ae;border-radius:0}
+/* --- sticky enquiry form (live style) --- */
+.p-aside{top:96px}
+.p-form{border:none;border-radius:0;padding:0;box-shadow:0 8px 32px rgba(50,50,50,.2);overflow:hidden}
+.p-form-strip{padding:1rem;font-family:'Marcellus',serif;text-align:center;text-transform:uppercase;letter-spacing:.5px;font-size:1.05rem;border-top:4px solid #02994a;border-bottom:1px dashed rgba(0,0,0,.2);color:#35312f}
+.p-form-body{padding:1.6rem}
+.p-form label{font-size:.85rem;font-weight:600}
+.p-form input,.p-form select,.p-form textarea{background:#f6f6f6;border:none;border-bottom:2px solid #02994a;border-radius:0;padding:12px 10px;font-weight:600;color:#181818;margin-top:5px}
+.p-form input:focus,.p-form select:focus,.p-form textarea:focus{outline:none;background:#fff7e8}
+.p-submit{width:100%;background:#02994a;color:#fff;border:none;padding:14px;font-family:'Marcellus',serif;text-transform:uppercase;letter-spacing:.5px;font-size:1rem;cursor:pointer;transition:background .3s ease}
+.p-submit:hover{background:#006161}
+/* --- amenities: green tiles --- */
+.p-amen-sec{background:#fff7e8}
+.p-amen-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.p-amen-item{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.6rem;text-transform:uppercase;color:#fff;background:#02994a;font-family:'Marcellus',serif;letter-spacing:.5px;backdrop-filter:blur(5px);border-radius:20px;min-height:110px;padding:16px 10px;text-align:center;font-size:.92rem;transition:background .3s ease}
+.p-amen-item:hover{background:#006161}
+.p-amen-ic{font-size:1.15rem;background:rgba(255,255,255,.18);width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+/* --- floor plan card (live: hard offset shadow) --- */
+.p-fp-card{max-width:860px}
+.p-fp-inner{padding:1.5rem;box-shadow:10px 10px 0 rgba(0,0,0,.15);border:1px solid rgba(0,0,0,.15);transition:all .3s ease;background:#fff}
+.p-fp-inner:hover{transform:translateY(-5px);box-shadow:0 1rem 3rem rgba(0,0,0,.24)}
+.p-fp-img{width:100%;border:1px solid #eee}
+.p-fp-details{margin:1rem 0 1.5rem;color:#000}
+.p-fp-row{display:flex;justify-content:space-between;gap:16px;align-items:baseline}
+.p-fp-row:not(:last-child){margin-bottom:10px;padding-bottom:10px;border-bottom:1px dashed rgba(0,0,0,.15)}
+.p-fp-row h6{margin:0;font-weight:600;font-family:'Marcellus',serif;text-transform:uppercase;letter-spacing:.5px;font-size:.92rem}
+.p-fp-row span{text-align:right}
+/* --- price list --- */
+.p-price-table{max-width:860px}
+.p-price-table th{background:#02994a;color:#fff;font-family:'Marcellus',serif;text-transform:uppercase;letter-spacing:.5px;border-color:#02994a}
+.p-price-table td{border:none;border-bottom:1px dashed rgba(0,0,0,.15);padding:14px 10px}
+.p-facts td,.p-price-table td{overflow-wrap:anywhere}
+.p-link{color:#02994a;font-weight:700;text-decoration:none;text-transform:uppercase;font-size:.85rem;letter-spacing:.5px}
+/* --- welcome photo band --- */
+.p-welcome{background-size:cover;background-position:center;position:relative;padding:6rem 16px}
+.p-welcome::before{content:"";position:absolute;inset:0;background:rgba(18,57,57,.45)}
+.p-welcome-inner{position:relative;max-width:820px;margin:0 auto;text-align:center}
+.p-welcome-inner p{font-family:'Marcellus',serif;color:#fff;font-size:1.5rem;line-height:1.6;margin:0}
+/* --- gallery (live: sharp photos on a cream band) --- */
+.p-gal-sec{background:#fff7e8}
+.p-gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.p-gal-item{position:relative;margin:0;overflow:hidden}
+.p-gal-item img{width:100%;height:230px;object-fit:cover;display:block;transition:transform .4s ease}
+.p-gal-item:hover img{transform:scale(1.04)}
+/* --- location cards --- */
+.p-loc-sec{background:#fff7e8}
+.p-loc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.p-loc-card{padding:1.1rem 1.3rem;background:#fff;box-shadow:0 5px 1.25rem rgba(0,0,0,.12);display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:.95rem}
+.p-loc-card span{font-weight:700;color:#02994a;white-space:nowrap}
+/* --- faq + related (existing sections, restyled) --- */
+body.proj #faq{background:#fff}
+body.proj #related{background:#fff7e8;padding:3.5rem 0}
+body.proj #related h2,body.proj #faq h2{font-size:1.9rem;text-transform:uppercase;letter-spacing:.5px}
+/* --- enquire section (live: white card with soft shadow) --- */
+.p-enquire{background:#fff;padding:4rem 0}
+.p-enquire-card{background:#fff;box-shadow:0 8px 32px rgba(50,50,50,.18);border-top:4px solid #02994a;text-align:center;padding:3rem 2rem;max-width:860px;margin:0 auto}
+.p-enquire-card h2{font-size:2.1rem;text-transform:uppercase;letter-spacing:.5px;color:#02994a;margin:0 0 10px}
+.p-enquire-card p{max-width:640px;margin:0 auto 22px;line-height:1.7}
+.p-enquire-card .p-btn{margin:4px}
+/* --- mobile sticky bar (live: deep green) --- */
+body.proj .sticky-cta{background:#123939}
+body.proj .sticky-cta a{background:#123939;color:#fff;border-top:1px solid rgba(255,255,255,.18);font-size:.92rem}
+body.proj .sticky-cta a.wa{background:#02994a;color:#fff}
+body.proj .sticky-cta a.enq{background:#fff7e8;color:#123939}
+@media(max-width:900px){
+ .p-sec{padding:2.4rem 0}
+ .p-banner{min-height:auto;aspect-ratio:auto;padding:64px 14px 40px}
+ .p-banner-box{padding:2rem 1.2rem}
+ .p-banner-box h1{font-size:1.9rem}
+ .p-config-row{background:#02994a;padding:0;display:grid;grid-template-columns:1fr 1fr}
+ .p-cfg-box{border-right:none;border-bottom:1px dashed rgba(255,255,255,.35);color:#fff;padding:10px 12px}
+ .p-cfg-box h3{font-size:.68rem}.p-cfg-box p{font-size:.84rem}
+ .p-facts th{width:104px;font-size:.8rem}.p-facts th,.p-facts td{padding:9px 6px}
+ .p-fp-row{flex-wrap:wrap;row-gap:2px}
+ .p-welcome{padding:3.5rem 16px}
+ .p-cfg-box h3{color:#ffe9a8}.p-cfg-box p{color:#fff}
+ .p-heading{font-size:1.6rem}
+ .p-aside{position:static}
+}
